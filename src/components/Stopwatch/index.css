@@ -1,0 +1,82 @@
+.bg-container {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    height: 80%;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.paragraph {
+    color: black;
+    font-size: 20px;
+}
+
+.btn-1 {
+    color: white;
+    background-color: rgb(46, 245, 255);
+    border-radius: 10px;
+    border-width: 0px;
+    font-weight: bold;
+    padding: 4px;
+    height: 40px;
+    width: 70px;
+    margin: 10px;
+}
+
+.btn-2 {
+    color: white;
+    background-color: rgb(255, 57, 57);
+    border-radius: 10px;
+    border-width: 0px;
+    font-weight: bold;
+    padding: 4px;
+    height: 40px;
+    width: 70px;
+    margin: 10px;
+}
+
+.btn-3 {
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    border-width: 0px;
+    font-weight: bold;
+    padding: 4px;
+    height: 40px;
+    width: 70px;
+    margin: 10px;
+}
+
+.details-container {
+    height: 40%;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
